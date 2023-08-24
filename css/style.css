@@ -126,7 +126,10 @@
   transition: 0.3s;
 }
   
-
+.aboutTextgallery:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+}
 
 
 
