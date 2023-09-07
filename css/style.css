@@ -202,7 +202,6 @@ ul a {
   border-radius: 90px;
   transition: 0.3s;
 }
-
 .togglebutton:checked + .toggleinside {
   background: #bada55;
 }
