@@ -166,3 +166,64 @@ details{
 ul a {
   padding: 0 1em;
 }
+
+
+/* toggle button here from */
+
+.outerbutton{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.togglebutton[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggleinside {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: grey;
+  display: block;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.toggleinside:after {
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+.togglebutton:checked + .toggleinside {
+  background: #bada55;
+}
+
+.togglebutton:checked + .toggleinside:after {
+  left: calc(100% - 2.5px);
+  transform: translateX(-100%);
+}
+
+.toggleinside:active:after {
+  width: 130px;
+}
+
+@media (max-width:768px){
+  .outerbutton{
+    display: block;
+    margin-top: 5px;
+  }
+  .outerbutton small br{
+    display: none;;
+  }
+}
