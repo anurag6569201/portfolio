@@ -7,7 +7,12 @@
 	<link rel="icon" href="anu.jpg">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/java.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
@@ -16,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img class="img-fluid rounded-circle" src="profile.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-top me-2" style="margin-right: 1em;">
+            <img class="img-fluid rounded-circle" src="profile.jpg" alt="Logo" width="50" class="d-inline-block align-top me-2" style="margin-right: 1em;">
             Anurag Singh
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,26 +30,36 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-            <ul class="navbar-nav">   
-                <!-- toggle button for advanced version view or creative view -->
-                <div class="outerbutton nav-item">
-                    <small style="font-size: 16px;margin-right: 5px;text-align: center;">Advanced <br> View</small>
-                    <input class="togglebutton"type="checkbox" id="switch" /><label class="toggleinside" for="switch">Toggle</label>
-                </div>
-            </ul>
-
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav_items2_a" href="#about">
+                        <span class="nav_items2_1" href="">Home</span>
+                        <span class="nav_items2_2" href=""></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Skills">Skills</a>
+                    <a class="nav_items2_a" href="">
+                        <span class="nav_items2_1" href="">Services</span>
+                        <span class="nav_items2_3" href=""></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav_items2_a" href="">
+                        <span class="nav_items2_1" href="">Contact</span>
+                        <span class="nav_items2_4" href=""></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav_items2_a" href="">
+                        <span class="nav_items2_1" href="">About</span>
+                        <span class="nav_items2_5" href=""></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav_items2_a" href="">
+                        <span class="nav_items2_1" href="">Showcase</span>
+                        <span class="nav_items2_6" href=""></span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -506,10 +521,7 @@
 <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2023 Anurag Singh Portfolio. <br> All rights reserved.</p>
 </footer>
-<script src="js/lightbox-plus-jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/java.js"></script>
+
 
 </body>
 </html>
