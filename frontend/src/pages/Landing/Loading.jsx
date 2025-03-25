@@ -1,7 +1,7 @@
 import "../../assets/Loading/Loading.css";
-import img from "../../assets/Landing/images/sign.png";
 import gsap from "gsap";
 import { useLayoutEffect, useRef } from "react";
+import Landing from "./Landing";
 
 function Loading() {
   const imgRef = useRef(null);
@@ -57,33 +57,7 @@ function Loading() {
   return (
     <div ref={animationContainerRef}>
       <div className="cover-5">
-        <header>
-          <img className="logo" src="https://i.imgur.com/ZFnSyPe.png" alt="Logo" />
-          <ul className="items">
-            <li className="item">Actor</li>
-            <li className="item">Producer</li>
-            <li className="item">Contact</li>
-          </ul>
-        </header>
-
-        <div className="container">
-          <div className="left">
-            <img ref={imgRef} className="header-img" src={img} alt="SRK" />
-          </div>
-          <div className="right">
-            <h1 ref={headingRef} className="heading">
-              <span>The King </span>
-              <br />
-              KHAN
-            </h1>
-            <p ref={subHeadingRef} className="sub-heading">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda unde dicta, repellendus consequuntur, at.
-            </p>
-            <a ref={buttonRef} className="button" href="#">
-              Learn More
-            </a>
-          </div>
-        </div>
+          <Landing/>
       </div>
 
       <div className="cover-4"></div>

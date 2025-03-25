@@ -20,7 +20,7 @@ function Landing() {
                             </div>
                         </main>
                         <footer>
-                            <div className="links"><a className="link small alt" href="http://facebook.com/YahiaRefaiea" title="Facebook (@YahiaRefaiea)" target="_blank">Facebook</a><a className="link small alt" href="http://twitter.com/YahiaRefaiea" title="Twitter (@YahiaRefaiea)" target="_blank">Twitter</a><a className="link small alt" href="http://codepen.io/YahiaRefaiea" title="Codepen (@YahiaRefaiea)" target="_blank">Codepen</a><a className="link small alt" href="http://github.com/YahiaRefaiea" title="GitHub (@YahiaRefaiea)" target="_blank">GitHub</a></div>
+                            <div className="links" style={{flexDirection:'row'}}><a className="link small alt" href="http://facebook.com/YahiaRefaiea" title="Facebook (@YahiaRefaiea)" target="_blank">Facebook</a><a className="link small alt" href="http://twitter.com/YahiaRefaiea" title="Twitter (@YahiaRefaiea)" target="_blank">Twitter</a><a className="link small alt" href="http://codepen.io/YahiaRefaiea" title="Codepen (@YahiaRefaiea)" target="_blank">Codepen</a><a className="link small alt" href="http://github.com/YahiaRefaiea" title="GitHub (@YahiaRefaiea)" target="_blank">GitHub</a></div>
                         </footer>
                     </div>
                     <div className="loading" id="identity" title="Yahia Refaiea identity">
